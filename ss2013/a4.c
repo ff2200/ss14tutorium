@@ -1,3 +1,7 @@
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
+
 void split(char** words, char* str) {
 
     int str_i;
@@ -24,3 +28,6 @@ void split(char** words, char* str) {
     }
     words[word_i] = NULL;
 }
+
+
+
